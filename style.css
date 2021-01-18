@@ -1,0 +1,49 @@
+
+.ho{
+    text-align: center;
+    
+}
+.voiture
+{
+    display: flex;
+    justify-content: space-around;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+
+}
+h1
+{
+        color: brown;
+    text-align: center;
+}
+
+p{
+    font-size: 30px;
+    color:darkgray;
+}
+
+.voi:hover 
+{ 
+    background-color: black;
+    border: 1px solid black;
+}
+
+.moh
+{
+    display: none;
+   
+}
+a{
+    font-size: 25px;
+    color: blue;
+}
+a:hover+ .moh{
+display: block;
+}
+button{
+    background-color:rgb(155, 155, 245) ;
+    size: 30px;
+    border-radius: 20%;
+}
